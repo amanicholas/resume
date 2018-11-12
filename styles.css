@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    padding: 8px 20px 8px;
+    padding: 10px 20px 10px;
 /*     background-color: #eee; */
 /*     border-bottom: solid 1px #ff002b; */
     text-align: center
@@ -36,7 +36,7 @@ address p{
 
 .main {
    
-/*     padding: 0 0px; */
+    padding: 0 20px;
 }
 h4 {
     font-size: 12px;
@@ -53,11 +53,12 @@ h3 {
 }
 
 h2 {
-    padding-left: 10px;
+    padding: 5px 10px 3px;
     box-shadow: inset -0.25em -5em 10px 0px #ffecf0;
     font-size: 18px;
     font-weight: 600;
-    margin: 4px 0;
+    margin: 7px 0;
+    border-radius: 5px;
 }
 
 p {
@@ -87,7 +88,7 @@ span, time {
     height: 30.16%;
 }
 .sk {
-    height: 78%;
+    height: 70%;
 }
 .education, .employment, .selfTaught, .skills, .summary{
     margin:5px;
@@ -103,10 +104,12 @@ span, time {
 }
 .education time {
     display: block;
+    margin-top: 5px;
 }
 
 .education .sk {
     padding-top: 30px;
+    padding-right: 20px;
 }
 .education p {
     
